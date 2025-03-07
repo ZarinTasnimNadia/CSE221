@@ -1,0 +1,58 @@
+Instruction:
+- Open "EnterIDandLanguage.txt" to edit the file.
+    - Replace "00000000" in the first line with your ID number.
+    - Replace "py" in the second line with the file extension of your
+        programming language: "cpp" for C++ or "java" for Java or
+        "py" for Python.
+- Complete the solve() method inside "_001_Solution".
+    - Do not use any external library (such as numpy, pandas) in your code.
+    - Do not use any forbidden keywords (given somewhere near the problem
+        statement) in your code in this file.
+- For testing and debugging purpose you are given another file "_001_Testing".
+    - Do not worry about forbidden keywords in this file.
+    - Use this file on your own convenience.
+- Do not edit any other file apart from the above mentioned files.
+- Run "_001_Checker.bat" after you are done testing and
+    completing the solve() method inside "_001_Solution".
+    - You should see some tentative score out of 1.
+    - Also a file should be generated containing your ID number in its name.
+        - This file contains a best seen stable version of your code which
+            you need to submit.
+        - If you are not satisfied with the code in this file then run
+            "_001_Cleaner.bat" and generate a new one by running
+            "_001_Checker.bat" again.
+- Do not delete any file on your own.
+- If you receive a WrongAnswer verdict, you might want to check
+    "WrongAnswer.txt" for clues which might help you to correct your mistakes.
+- Similarly for TimeLimitExceeded verdict, "TimeLimitExceeded.txt" might
+    contain some clues.
+
+Forbidden keywords: sort main scan print input output file read write thread process
+
+Problem: There is a list A containing N positive integers. Find the distinct
+integers between 1 and M which are missing in this list in ascending order and
+put them in list B. Solve the problem in O(N^2+M) time.
+
+Note: Do not assign any object into B using "=" operator. Instead, use instance
+functions (for example, push_back() in C++ or add() in Java or append() in
+Python) to modify B.
+
+Constraints: 1 <= A[i] <= M + N, N <= M
+
+Batch   Score   Tests       N       M
+1       0.1     10          10      100
+2       0.1     100         10      100
+3       0.1     100         100     100
+4       0.1     10          100     1000
+5       0.1     100         10      10000
+6       0.1     10          10      100000
+7       0.1     4000        10      100
+8       0.1     800         100     10000
+9       0.1     20          1000    1000000
+10      0.1     1           10000   10000000
+--------------------------------------------------------
+10      1       Total
+
+TODO: rewritten instruction and problem statement with sample I/O in other
+    better format (pdf/docx).
+Near Future Work: returning answer instead of placing into object.
